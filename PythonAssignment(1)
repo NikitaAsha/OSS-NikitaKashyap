@@ -1,0 +1,12 @@
+def product(x, y):
+    return x*y
+
+no1= int(input("Enter the First number "))
+no2= int(input("Enter the Second number "))
+
+if product(no1, no2) >= 1200:
+    print(product(no1, no2), "is greater than 1200")
+    print("Sum = ", product(no1,no2) +1200)
+else:
+    print(product(no1, no2), "is lesser than 1200")
+    print("Difference = ", product(no1, no2) -1200)
