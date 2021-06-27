@@ -1,0 +1,5 @@
+numberList = [20, 25, 20, 45, 75, 15, 55, 10]
+i=0
+while i < len(numberList)-1:
+    print(numberList[i], "+", numberList[i+1], "=", numberList[i]+numberList[i+1])
+    i = i + 1
